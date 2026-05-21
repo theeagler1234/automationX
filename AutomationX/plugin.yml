@@ -1,0 +1,14 @@
+cat > src/main/resources/plugin.yml << 'EOF'
+name: AutomationX
+version: ${project.version}
+main: com.automationx.AutomationX
+api-version: 1.19
+description: Industrial automation plugin with multiblock machines and power systems
+author: YourName
+
+commands:
+  automationx:
+    description: Main AutomationX command
+    aliases: [ax]
+    usage: /ax <help|give|reload>
+EOF

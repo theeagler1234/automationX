@@ -1,0 +1,26 @@
+# AutomationX Configuration
+#10 seconds (20 ticks = 1 sec)
+#the base ticks is the max amount of time it will be until an item is processed 
+press:
+  base-ticks: 200
+#10 seconds (20 ticks = 1 sec)
+#the base ticks is the max amount of time it will be until an item is processed 
+hydraulic-press:
+  base-ticks: 200
+#total speed compared to a regular furnace
+forge:
+  speed-multiplier: 3.0
+
+mechanical:
+  max-rpm: 256
+  max-ratio: 4.0
+  network-max-su: 256
+
+  gearbox:
+    default-ratio: 1.0
+    su-per-ratio: 4.0
+
+  rsc:
+    min-rpm: 16
+    default-rpm: 64
+    su-per-rpm: 0.125
